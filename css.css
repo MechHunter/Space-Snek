@@ -1,0 +1,262 @@
+body {
+	font-family: sans-serif;
+	text-align: center;
+	background-color: black;
+	color: green;
+	padding: 10px;
+	margin-left: 5%;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 900px;
+	border: 2px solid green;
+}
+html {
+	background-color: black;
+	background-image: url(images/space.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+h1 {
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 90px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	float:left;
+	text-decoration: none;
+	text-shadow: 4px 4px lime;
+}
+h2, h3 {
+	border-bottom: 2px solid green;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#mech {
+	border-bottom: 2px solid green;
+	padding-bottom: 4px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+#howTo {
+	border: 2px solid green;
+	border-radius: 30px;
+	background-color: black;
+}
+#floatHow {
+	margin-left: 932px;
+	width: 400px;
+	position: fixed;
+}
+.red {
+	color: red;
+	display:inline;
+}
+.cyan {
+	color: cyan;
+	display:inline;
+}
+.lime {
+	color: lime;
+	display:inline;
+}
+.orange {
+	color: orange;
+	display:inline;
+}
+ul, li {
+	list-style-type: none;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 25px;
+}
+#start {
+	width: auto;
+	height: auto;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 40px;
+	border: 3px solid green;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#start:hover{
+	font-size: 60px;
+	color: black;
+	text-decoration: none;
+	background-color: green;
+	border: 3px solid black;
+	outline: none;
+}
+#start:active{
+	font-size: 60px;
+	color: black;
+	text-decoration: none;
+	background-color: green;
+	border: 3px solid black;
+	outline: none;
+}
+#easy {
+	width: 200px;
+	color: lime;
+	border: 2px solid lime;
+}
+#easy:hover{
+	color: black;
+	text-decoration: none;
+	background-color: lime;
+	border: 2px solid black;
+	outline: none;
+}
+#easy:active{
+	color: black;
+	text-decoration: none;
+	background-color: lime;
+	outline: none;
+}
+#medium {
+	width: 200px;
+	color: cyan;
+	border: 2px solid cyan;
+}
+#medium:hover{
+	color: black;
+	text-decoration: none;
+	background-color: cyan;
+	border: 2px solid black;
+	outline: none;
+}
+#medium:active{
+	color: black;
+	text-decoration: none;
+	background-color: cyan;
+	outline: none;
+}
+#hard {
+	width: 200px;
+	color: yellow;
+	border: 2px solid yellow;
+}
+#hard:hover{
+	color: black;
+	text-decoration: none;
+	background-color: yellow;
+	border: 2px solid black;
+	outline: none;
+}
+#hard:active{
+	color: black;
+	text-decoration: none;
+	background-color: yellow;
+	outline: none;
+}
+#insane {
+	width: 200px;
+	color: tomato;
+	border: 2px solid tomato;
+}
+#insane:hover{
+	color: black;
+	text-decoration: none;
+	background-color: tomato;
+	border: 2px solid black;
+	outline: none;
+}
+#insane:active{
+	color: black;
+	text-decoration: none;
+	background-color: tomato;
+	outline: none;
+}
+#deranged {
+	width: 200px;
+	color: red;
+	border: 2px solid red;
+}
+#deranged:hover{
+	color: black;
+	text-decoration: none;
+	background-color: red;
+	border: 2px solid black;
+	outline: none;
+}
+#deranged:active{
+	color: black;
+	text-decoration: none;
+	background-color: red;
+	outline: none;
+}
+canvas {
+	background: black;
+	background-image: url(images/space.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	border: 3px solid green;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	display: block;
+	display: block;
+}
+button {
+	width: 300px;
+	padding: 20px;
+	font-size: 20px;
+	background-color: black;
+	color: green;
+	border: 2px solid green;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+	outline: none;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+button:hover{
+	color: black;
+	text-decoration: none;
+	background-color: green;
+	border: 2px solid black;
+	outline: none;
+	font-size: 30px;
+}
+button:active{
+	color: black;
+	text-decoration: none;
+	background-color: green;
+	outline: none;
+	font-size: 30px;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropContent {
+	display: none;
+	position: absolute;
+}
+.dropContent a {
+	display: block;
+}
+.difs:active, .difs:focus {
+	color: black;
+	text-decoration: none;
+	background-color: green;
+	outline: none;
+}
+.show {
+	display:block;
+}
