@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <title>Space Snek</title>
+      <link rel="stylesheet" href="css.css">
+      <link rel="shortcut icon" type="image/png" href="images\Mech_H_logo.2.png"/>
+    </head>
+
+    <body>
+        <h1>
+          Space Snek
+        </h1>
+        <div id="floatHow">
+          <h2>
+            How To Play
+          </h2>
+          <div id="howTo">
+            <ul>
+              <li>Move with arrow keys</li>
+              <li>Dont touch the <div class="red">red border</div></li>
+              <li>Eat <div class="cyan">fruit</div> to gain more points</li>
+              <li>Avoid oncoming <div class="red">asteroids</div>.<div class="orange"> Dont</div> let them hit your<div class="lime"> head!</div></li>
+            </ul>
+            <p>
+              p.s dont click the start button more then once otherwise the game will speed up
+            </p>
+          </div>
+          <button onclick="difCheck()" id="start">Start</button>
+        </div>
+        <div class="dropdown">
+          <button class="difs" onclick="difMenu()">Select Difficulty &#8681;</button>
+          <div id="d" class="dropContent">
+            <button onclick="easy()" id="easy">Easy</button>
+            <button onclick="med()" id="medium">Medium</button>
+            <button onclick="hard()" id="hard">Hard</button>
+            <button onclick="ins()" id="insane">Insane</button>
+            <button onclick="der()" id="deranged">Deranged</button>
+          </div>
+        </div>
+        <canvas width="800" height="600" id="game"></canvas>
+        <p id="mech">
+          A Mechanical Industries game
+        </p>
+
+        <script src="game.js">
+        </script>
+
+      </body>
+
+</html>
