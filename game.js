@@ -27,7 +27,7 @@ var canvas = document.getElementById('game');
 var ctx = canvas.getContext('2d');
 // context
 var start = false;
-// if the player has started
+// if the game has started
 var score = 0;
 // player's score
 var astTimer = 0;
